@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870B9DAD26A03DD9002EFDDE /* MakeDepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870B9DAC26A03DD9002EFDDE /* MakeDepositViewController.swift */; };
+		870B9DAF26A04F23002EFDDE /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870B9DAE26A04F23002EFDDE /* HomeTabBarController.swift */; };
 		877A294926A0241700162877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A294826A0241700162877 /* AppDelegate.swift */; };
 		877A294B26A0241700162877 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A294A26A0241700162877 /* SceneDelegate.swift */; };
-		877A294D26A0241700162877 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A294C26A0241700162877 /* ViewController.swift */; };
+		877A294D26A0241700162877 /* DespoitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A294C26A0241700162877 /* DespoitsViewController.swift */; };
 		877A295026A0241700162877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877A294E26A0241700162877 /* Main.storyboard */; };
 		877A295226A0241800162877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877A295126A0241800162877 /* Assets.xcassets */; };
 		877A295526A0241800162877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877A295326A0241800162877 /* LaunchScreen.storyboard */; };
 		877A296026A0241800162877 /* BankingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A295F26A0241800162877 /* BankingAppTests.swift */; };
 		877A296B26A0241800162877 /* BankingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A296A26A0241800162877 /* BankingAppUITests.swift */; };
+		877A297926A0244600162877 /* DepositModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A297826A0244600162877 /* DepositModel.swift */; };
+		877A297D26A0246400162877 /* DepositsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A297B26A0246400162877 /* DepositsService.swift */; };
+		877A297E26A0246400162877 /* MockDepositList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A297C26A0246400162877 /* MockDepositList.swift */; };
+		877A298026A0248500162877 /* DepositError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A297F26A0248500162877 /* DepositError.swift */; };
+		877A298626A0250B00162877 /* DepositsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A298426A0250B00162877 /* DepositsListViewModel.swift */; };
+		877A298826A0260E00162877 /* DepositViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A298726A0260E00162877 /* DepositViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		870B9DAC26A03DD9002EFDDE /* MakeDepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeDepositViewController.swift; sourceTree = "<group>"; };
+		870B9DAE26A04F23002EFDDE /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		877A294526A0241700162877 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		877A294826A0241700162877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		877A294A26A0241700162877 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		877A294C26A0241700162877 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		877A294C26A0241700162877 /* DespoitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DespoitsViewController.swift; sourceTree = "<group>"; };
 		877A294F26A0241700162877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877A295126A0241800162877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		877A295426A0241800162877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		877A296626A0241800162877 /* BankingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		877A296A26A0241800162877 /* BankingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingAppUITests.swift; sourceTree = "<group>"; };
 		877A296C26A0241800162877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877A297826A0244600162877 /* DepositModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositModel.swift; sourceTree = "<group>"; };
+		877A297B26A0246400162877 /* DepositsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositsService.swift; sourceTree = "<group>"; };
+		877A297C26A0246400162877 /* MockDepositList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDepositList.swift; sourceTree = "<group>"; };
+		877A297F26A0248500162877 /* DepositError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositError.swift; sourceTree = "<group>"; };
+		877A298426A0250B00162877 /* DepositsListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositsListViewModel.swift; sourceTree = "<group>"; };
+		877A298726A0260E00162877 /* DepositViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +115,14 @@
 		877A294726A0241700162877 /* BankingApp */ = {
 			isa = PBXGroup;
 			children = (
+				877A297A26A0246400162877 /* Services */,
+				877A298126A0248A00162877 /* Model */,
+				877A298226A0250B00162877 /* ViewModel */,
+				877A298B26A02F5500162877 /* Controllers */,
+				877A294E26A0241700162877 /* Main.storyboard */,
+				877A299026A02FC300162877 /* DepositsListCell */,
 				877A294826A0241700162877 /* AppDelegate.swift */,
 				877A294A26A0241700162877 /* SceneDelegate.swift */,
-				877A294C26A0241700162877 /* ViewController.swift */,
-				877A294E26A0241700162877 /* Main.storyboard */,
 				877A295126A0241800162877 /* Assets.xcassets */,
 				877A295326A0241800162877 /* LaunchScreen.storyboard */,
 				877A295626A0241800162877 /* Info.plist */,
@@ -126,6 +146,50 @@
 				877A296C26A0241800162877 /* Info.plist */,
 			);
 			path = BankingAppUITests;
+			sourceTree = "<group>";
+		};
+		877A297A26A0246400162877 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				877A297B26A0246400162877 /* DepositsService.swift */,
+				877A297C26A0246400162877 /* MockDepositList.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		877A298126A0248A00162877 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				877A297826A0244600162877 /* DepositModel.swift */,
+				877A297F26A0248500162877 /* DepositError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		877A298226A0250B00162877 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				877A298426A0250B00162877 /* DepositsListViewModel.swift */,
+				877A298726A0260E00162877 /* DepositViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		877A298B26A02F5500162877 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				877A294C26A0241700162877 /* DespoitsViewController.swift */,
+				870B9DAC26A03DD9002EFDDE /* MakeDepositViewController.swift */,
+				870B9DAE26A04F23002EFDDE /* HomeTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		877A299026A02FC300162877 /* DepositsListCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DepositsListCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +322,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877A294D26A0241700162877 /* ViewController.swift in Sources */,
+				877A297E26A0246400162877 /* MockDepositList.swift in Sources */,
+				877A297D26A0246400162877 /* DepositsService.swift in Sources */,
+				870B9DAF26A04F23002EFDDE /* HomeTabBarController.swift in Sources */,
+				877A298026A0248500162877 /* DepositError.swift in Sources */,
+				877A294D26A0241700162877 /* DespoitsViewController.swift in Sources */,
 				877A294926A0241700162877 /* AppDelegate.swift in Sources */,
+				877A298626A0250B00162877 /* DepositsListViewModel.swift in Sources */,
+				870B9DAD26A03DD9002EFDDE /* MakeDepositViewController.swift in Sources */,
+				877A297926A0244600162877 /* DepositModel.swift in Sources */,
 				877A294B26A0241700162877 /* SceneDelegate.swift in Sources */,
+				877A298826A0260E00162877 /* DepositViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
